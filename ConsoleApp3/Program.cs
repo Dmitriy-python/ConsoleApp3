@@ -264,5 +264,127 @@
 // }
 // CheckPassword("");
 
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics;
+
+// List<int> numbers? = new List<int>();
+//
+// for (int i = 0; i < 10; i++)
+// {
+//     numbers.Add(i);
+//     Console.Write(i);
+// }
+
+// LinkedList<string> list = new LinkedList<string>(
+//     new[] { "Dima", "Kirill", "Andrey" }
+//     );
+// var currentNode = list.First;
+//
+// while (currentNode != null)
+// {
+//     Console.WriteLine(currentNode.Value);
+//     currentNode = currentNode.Next;
+// }
 
 
+
+// List<int> numbers = new List<int>(){1,2,3,4,5,6,7,8,9,10};
+//
+//
+// for (int i = numbers.Count; i >=1; i--)
+// {
+//     Console.Write(i);
+// }
+
+
+// List<int> numbers2 = new List<int>();
+// for (int i = 0; i < 10; i++)
+// {
+//     var num = Convert.ToInt32(Console.ReadLine());
+//     numbers2.Add(num);
+// }
+// numbers2.RemoveAll(x => x%2 == 0);
+// Console.WriteLine(string.Join(",", numbers2));
+
+
+//
+// List<int> numbers2 = new List<int>(){1,2,3,4,5,6};
+//
+// LinkedList<string> list = new LinkedList<string>(
+//     new[] { "Dima", "Kirill", "Andrey" }
+//      );
+//
+//
+//
+// void RemoveFirstElement(List<int> elements, LinkedList<string> elements2)
+// {
+//    var sw=Stopwatch.StartNew();
+//    while (elements.Count>0)
+//    {
+//        elements.RemoveAt(0);
+//    }
+//    sw.Stop();
+//    Console.WriteLine(sw.ElapsedMilliseconds);
+//    
+//    
+//    var sw2=Stopwatch.StartNew();
+//    while (elements2.Count>0)
+//    {
+//        elements.RemoveAt(0);
+//    }
+//    sw.Stop();
+//    Console.WriteLine(sw2.ElapsedMilliseconds);
+// }
+//
+// RemoveFirstElement(numbers2, list);
+
+
+// Queue<int> q = new Queue<int>();
+// q.Enqueue(0);
+// q.Enqueue(10);
+// q.Enqueue(20);
+//
+// int a;
+//
+//
+// while (q.TryDequeue(out a))
+// {
+//     Console.WriteLine(a);
+// }
+// Console.WriteLine(q.Count);
+
+
+// var people = new Stack<string>();
+// people.Push("John");
+// people.Push("Doe");
+// people.Push("Mary");
+//
+//
+// string headPerson = people.Peek();
+// Console.WriteLine(headPerson);
+//
+//
+// string person1 = people.Pop();
+// Console.WriteLine(person1);
+// string person2 = people.Pop();
+// Console.WriteLine(person2);
+// string person3 = people.Pop();
+// Console.WriteLine(person3);
+
+
+
+Queue<string> q = new Queue<string>();
+
+// var a = Console.ReadLine();
+//
+//
+// while (a != "exit")
+// {
+//     q.Enqueue(a);
+//     var b = q.Dequeue();
+//     Console.WriteLine(b);
+// }
+    
+
+    
