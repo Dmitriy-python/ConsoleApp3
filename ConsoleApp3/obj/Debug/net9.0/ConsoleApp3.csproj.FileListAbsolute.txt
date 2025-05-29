@@ -27,3 +27,4 @@ C:\Users\Дмитрий\RiderProjects\ConsoleApp3\ConsoleApp3\obj\Debug\net9.0\r
 C:\Users\Дмитрий\RiderProjects\ConsoleApp3\ConsoleApp3\obj\Debug\net9.0\ConsoleApp3.pdb
 C:\Users\Дмитрий\RiderProjects\ConsoleApp3\ConsoleApp3\obj\Debug\net9.0\ConsoleApp3.genruntimeconfig.cache
 C:\Users\Дмитрий\RiderProjects\ConsoleApp3\ConsoleApp3\obj\Debug\net9.0\ref\ConsoleApp3.dll
+C:\Users\Pc-9\RiderProjects\ConsoleApp3\ConsoleApp3\obj\Debug\net9.0\ConsoleApp3.sourcelink.json
