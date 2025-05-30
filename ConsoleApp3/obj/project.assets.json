@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Дмитрий\\.nuget\\packages\\": {}
+    "C:\\Users\\Pc-9\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Дмитрий\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "projectUniqueName": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
       "projectName": "ConsoleApp3",
-      "projectPath": "C:\\Users\\Дмитрий\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
-      "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Дмитрий\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\obj\\",
+      "projectPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+      "packagesPath": "C:\\Users\\Pc-9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Pc-9\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Дмитрий\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Pc-9\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
