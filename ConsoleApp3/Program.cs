@@ -376,29 +376,21 @@ using System.Diagnostics;
 
 // Queue<string> q = new Queue<string>();
 //
-// string input=null;
-//
-// while (input != "end")
+// string input=Console.ReadLine();
+// while (input!="end")
 // {
-//     
-//     input = Console.ReadLine();
-//     if (input == "end")
-//         input = "end";
-//     else
-//     {
-//         q.Enqueue(input);
-//     }
-//         
-//         
+//     q.Enqueue(input);
+//     input=Console.ReadLine();
 // }
-
+//
+//
 // string output;
 // while (q.TryDequeue(out output))
 // {
 //     Console.WriteLine(output);
 // }
 // Console.WriteLine(q.Count);
-//
+
 
 
 // Queue<string> vip = new Queue<string>(new []{"Dima", "Dima", "Dima", "Dima"});
