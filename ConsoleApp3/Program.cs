@@ -378,7 +378,7 @@ Queue<string> q = new Queue<string>();
 
 // var a = Console.ReadLine();
 //
-//ывывы
+//
 // while (a != "exit")
 // {
 //     q.Enqueue(a);
