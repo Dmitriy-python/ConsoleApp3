@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj": {}
+    "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp33\\ConsoleApp3\\ConsoleApp3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj": {
+    "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp33\\ConsoleApp3\\ConsoleApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectUniqueName": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp33\\ConsoleApp3\\ConsoleApp3.csproj",
         "projectName": "ConsoleApp3",
-        "projectPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\ConsoleApp3.csproj",
+        "projectPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp33\\ConsoleApp3\\ConsoleApp3.csproj",
         "packagesPath": "C:\\Users\\Pc-9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp3\\ConsoleApp3\\obj\\",
+        "outputPath": "C:\\Users\\Pc-9\\RiderProjects\\ConsoleApp33\\ConsoleApp3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pc-9\\AppData\\Roaming\\NuGet\\NuGet.Config"

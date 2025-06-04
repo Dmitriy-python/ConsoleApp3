@@ -267,6 +267,7 @@
 using System.Collections;
 using System.ComponentModel;
 using System.Diagnostics;
+using ConsoleApp3;
 
 // List<int> numbers? = new List<int>();
 //
@@ -374,7 +375,7 @@ using System.Diagnostics;
 
 
 
-Queue<string> q = new Queue<string>();
+        Queue<string> q = new Queue<string>();
 
 // var a = Console.ReadLine();
 //
@@ -385,6 +386,143 @@ Queue<string> q = new Queue<string>();
 //     var b = q.Dequeue();
 //     Console.WriteLine(b);
 // }
-    
 
-    
+
+// var people = new Dictionary<string?, string?>()
+// {
+//     ["1"]="Dima", ["2"]="Armen"
+// };
+//
+//
+// Console.WriteLine("enter name");
+// string name =Console.ReadLine();
+// if (people.ContainsKey(name))
+// {
+//     Console.WriteLine($"{people[name]}");
+// }
+
+// var students=new Dictionary<Person,List<int>>();
+//
+// var Dima = new Person("Dmitriy");
+//
+//
+//
+// void AddStudent(Person p, List<int> grades)
+// {
+//     students.Add(p, grades);
+// }
+//
+//
+// void DisplayStudents(Dictionary<Person, List<int>> students)
+// {
+//     foreach (var stud in students)
+//     {
+//         Console.WriteLine($"Student Name: {stud.Key.Name} Grades: {String.Join(",", stud.Value)} ");
+//     }
+// }
+//
+//
+//
+//
+// void AverageGrade(Dictionary<Person, List<int>> students)
+// {
+//     float result;
+//     foreach (var student in students)
+//     {
+//         result = student.Value.Sum() / student.Value.Count;
+//         Console.WriteLine($"Student name:{student.Key.Name}:  his midle grade {result} ");
+//     }
+// }
+// AddStudent(Dima, new List<int>(){1,2,3});
+// DisplayStudents(students);
+// AverageGrade(students);
+
+
+        // ArrayList list = new ArrayList();
+        // list.Add(5.5);
+        // list.Add(5);
+        // list.AddRange(new string[]{"Hello", "World"});
+        // list.Add(new string[]{"Hello", "Dima"});
+        // list.Add(new List<string>{"Hello2", "Dima2"});
+        //
+        //
+        // foreach (var var in list)
+        // {
+        //     if (var.GetType() == typeof(string[]))
+        //     {
+        //         foreach (var varik in (IEnumerable)var)
+        //         {
+        //             Console.WriteLine(varik);
+        //     
+        //         }
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine(var);
+        //     }
+        // }
+
+        
+// HashSet<string> set = new HashSet<string>();
+//
+//
+// Console.WriteLine(set.Add("d"));
+// Console.WriteLine(set.Add("d"));
+// foreach (var varik in set)
+// {
+//         Console.WriteLine(varik);
+// }
+//
+// HashSet<int> hset2 = new HashSet<int>()
+// {
+//         1,2,3,4,5,6,7,8,9,10,11,12
+// };
+//
+// Console.WriteLine(string.Join(",", hset2));
+        
+//         
+//         var test = new Tetsclass();    
+//         var test2class = new Test2class();
+//         
+// test.SomeMethod(10);
+// test2class.SomeMethod(10); 
+
+//         var comp = new Computer(120);
+//         var phone = new Phone(100);
+// comp.PowerOn();   
+// comp.ShowVoltage();
+// comp.PowerOff();
+// comp.ShowVoltage();
+//
+// phone.PowerOn();
+// phone.ShowVoltage();
+// comp.PowerOff();
+// comp.ShowVoltage();
+
+// List<Iprintable> printables = new List<Iprintable>();
+// printables.Add(new Book());
+// printables.Add(new Magazine());
+// printables.Add(new Magazine());
+// printables.Add(new Book());
+//
+// foreach (var var in printables)
+// {
+//         var.Print();
+// }
+//
+// Magazine.printMagazines(printables);
+// Book.printBooks(printables);
+        
+        var kreditka = new CreditCard(100);
+        var paypal = new Paypal(100);
+
+// kreditka.Pay(101);
+// paypal.Pay(101);        
+// Console.WriteLine(kreditka.balance);
+// Console.WriteLine(paypal.balance);
+Checkout.Payment(paypal, 50);
+
+
+
+
+
