@@ -513,16 +513,167 @@ using ConsoleApp3;
 // Magazine.printMagazines(printables);
 // Book.printBooks(printables);
         
-        var kreditka = new CreditCard(100);
-        var paypal = new Paypal(100);
+        // var kreditka = new CreditCard(100);
+        // var paypal = new Paypal(100);
 
 // kreditka.Pay(101);
 // paypal.Pay(101);        
 // Console.WriteLine(kreditka.balance);
 // Console.WriteLine(paypal.balance);
-Checkout.Payment(paypal, 50);
+// Checkout.Payment(paypal, 50);
+
+
+        
+        // Message mes = Welcome.Print;
+        // Message mes2 = new Hello().Display;
+// mes = Hello;
+// mes = Hello2;        
+// mes();
+// mes();
+// void Hello()=>Console.WriteLine("Hello");
+// void Hello2()=>Console.WriteLine("Hello2");
+//
+//         mes();
+//         mes2();
+// delegate void Message();
+
+//
+//         Operation operation = Add;
+//         int result = operation(10, 20);
+//         Console.WriteLine(result);
+//
+//         operation = Multiply;
+//         result = operation(10, 20);
+//         Console.WriteLine(result);
+//         
+//         
+// int Add(int a, int b)=>a+b;
+// int Multiply(int a, int b)=>a*b;
+// delegate int Operation(int a, int b);
+
+//
+//         Message message = Hello;
+//         message += HowAreYou;
+//         message();
+//         message-= HowAreYou;
+//         if (message != null) message();
+//         
+// void Hello()=>Console.WriteLine("Hello");
+// void HowAreYou()=>Console.WriteLine("How are you?");
+
+
+// delegate void Message();
+
+//         Operation<int, int> doubleOperation = Double;
+//         int result= doubleOperation(5);
+//         Console.WriteLine(result);
+//         int Double(int n) => n + n;
+//
+// delegate T Operation<T, K>(K value);
+
+
+// DoOperation(10,20, Add);
+//         void DoOperation(int a, int b, Operation op)
+//         {
+//                 Console.WriteLine($"Operation name : {op.Method.Name}  result:: {op(a,b)}");
+//         }
+// int Add(int a, int b)=>a+b;
+// int Subtract(int a, int b)=>a-b;
+// int Multiply(int a, int b)=>a*b;
+//
+// delegate int Operation(int a, int b);
+
+
+
+// List<Operation> ops = new List<Operation>(){Add,Subtract,Multiply};
+//
+// void Show()
+// {
+//         foreach (var var in ops)
+//         {
+//                 Console.WriteLine(var(10,20));
+//                 
+//         }
+// }        
+//
+//
+// int Add(int a, int b)=>a+b;
+// int Subtract(int a, int b)=>a-b;
+// int Multiply(int a, int b)=>a*b;
+// delegate int Operation(int a, int b);
 
 
 
 
 
+//         PrintNumber example1 = PrintSquare;
+//         example1(5);
+//         
+//         void PrintSquare(int n)=>Console.WriteLine(Math.Pow(n,2));        
+// public delegate void PrintNumber(int num);
+
+
+
+//
+//         var operation = Selectoperation(OperationType.Add);
+//         Console.WriteLine(operation(10,4));
+//         
+//         
+//         var oper2 = Selectoperation(OperationType.Subtract);
+//         Console.WriteLine(oper2(10,4));
+//         
+//         
+//         
+//         
+//         Operation Selectoperation(OperationType ot)
+//         {
+//                 switch (ot)
+//                 {
+//                         case OperationType.Add: return Add;
+//                         case OperationType.Subtract: return Subtract;
+//                         default: return Multiply;
+//                         
+//                 }
+//         }
+//         
+//         
+//         
+//         int Add(int a, int b)=>a+b;
+//         int Subtract(int a, int b)=>a-b;
+//         int Multiply(int a, int b)=>a*b;
+//
+//         enum OperationType
+//         {
+//                 Add,Subtract,Multiply
+//         }
+//
+//
+//
+// delegate int Operation(int a, int b);
+
+Account account=new Account(200);
+
+account.Register(PrintMessage);
+account.Register(PrintColourMessage);        
+        
+        account.Subtract(100);
+        account.Subtract(101);
+  
+    
+        
+        
+        
+account.Unregister(PrintColourMessage);
+        account.Subtract(40);
+
+
+        
+        
+        
+void PrintMessage(string s)=>Console.WriteLine(s);
+void PrintColourMessage(string s)
+{
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine(s);
+        Console.ResetColor();
+}
