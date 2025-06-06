@@ -651,29 +651,148 @@ using ConsoleApp3;
 //
 // delegate int Operation(int a, int b);
 
-Account account=new Account(200);
+// Account account=new Account(200);
+//
+// account.Register(PrintMessage);
+// account.Register(PrintColourMessage);        
+//         
+//         account.Subtract(100);
+//         account.Subtract(101);
+//   
+//     
+//         
+//         
+//         
+// account.Unregister(PrintColourMessage);
+//         account.Subtract(40);
+//
+//
+//         
+//         
+//         
+// void PrintMessage(string s)=>Console.WriteLine(s);
+// void PrintColourMessage(string s)
+// {
+//         Console.ForegroundColor = ConsoleColor.Red;
+//         Console.WriteLine(s);
+//         Console.ResetColor();
+// }
 
-account.Register(PrintMessage);
-account.Register(PrintColourMessage);        
-        
-        account.Subtract(100);
-        account.Subtract(101);
-  
-    
-        
-        
-        
-account.Unregister(PrintColourMessage);
-        account.Subtract(40);
+//Anonimus function
+
+
+//         PrintMessage handler = delegate(string msg)
+//         {
+//                 Console.WriteLine(msg);
+//         };
+//
+//
+// handler("Hello");
+// delegate void PrintMessage(string message);
+
+// ShowMessage("Dima", delegate(string msg){Console.WriteLine(msg);});
+//
+//         static void ShowMessage(string message, MessageDelegate handler)
+//         {
+//                 handler?.Invoke(message);
+//         }
+
+
+        // MessageDelegate handler = delegate
+        // {
+        //         Console.WriteLine("Anonimus approach");
+        // };
+        //
+        // handler("HHHH");
+
+
+// MessageDelegate hello=(string msg)=>Console.WriteLine ("Hello"+ " "+ msg);
+//
+// hello("Dima");
+// hello("Tigr");
+// delegate void MessageDelegate(string message);
+
+
+
+// var hello = (string msg)=>Console.WriteLine("Hello"+msg);
+// hello("Dima");
+// hello("Tigr");
+
+//         var hello = () => Console.WriteLine("MEtanit");
+//
+// var message=()=>Console.Write("Hello ");
+// message+=()=>Console.WriteLine("Dima");
+// message += hello;
+// message += PrintMessage;
+// message();
+// Console.WriteLine("------------------");
+//         
+// message -= PrintMessage;
+// message -= hello;
+// message?.Invoke();
+// void PrintMessage()=>Console.WriteLine("HSOP");
+
+// int [] integers={1,2,3,4,5,5,6,7,8,9,10};
+// int result1 = Sum(integers, x => x > 5);
+// Console.WriteLine(result1);        
+//
+//
+//
+// int Sum(int[] numbers, IsEqualDelegate func)
+// {
+//         int result = 0;
+//         foreach (var num in numbers)
+//         {
+//                 if (func(num))
+//                         result += num;
+//         }
+//
+//         return result;
+// }
+// delegate bool IsEqualDelegate(int x);
 
 
         
-        
-        
-void PrintMessage(string s)=>Console.WriteLine(s);
-void PrintColourMessage(string s)
-{
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine(s);
-        Console.ResetColor();
-}
+// List<Client> names = new List<Client>();
+// names.Add(new Client("Dima", 26, true));
+// names.Add(new Client("Armen", 26, false));
+// names.Add(new Client("Artem", 24, true));
+// AGECHEKER(names, x => x.Age > 25&&x.IsActive==true);
+// void AGECHEKER(List<Client> clients, CheckAge funck)
+// {
+//         foreach (var client in clients)
+//         {
+//               if(funck(client))  
+//                       Console.WriteLine(client.Name + ": " + client.Age);
+//         }
+// }
+
+
+
+// delegate bool CheckAge(Client c);
+//         List<Employee> employees = new List<Employee>();
+//         employees.Add(new Employee("Dima", 100));
+//         employees.Add(new Employee("Dima", 120));
+//         employees.Add(new Employee("Dima", 130));
+//         
+//         
+//         // var result= MaxSalary(employees, l=>l.Max(x => x.Salary));
+//         // Console.WriteLine(result);
+//
+//         
+//         Employee  MaxSalary(List<Employee> employees, CheckSalary func)
+//         {
+//                 int maxSalary = 0;
+//                 Employee result;
+//                 
+//                 foreach (var emp in employees)
+//                 {
+//                         if (func())
+//                         
+//                 }
+//         }
+//
+//
+//
+//
+// delegate Employee CheckSalary(List<Employee> employees, int maxsum);
